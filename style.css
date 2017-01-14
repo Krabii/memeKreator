@@ -1,0 +1,23 @@
+frameset {
+	border:1px solid black;
+}
+
+#myCanvas {
+	border:1px solid #d3d3d3;
+	
+	}
+
+#control_panel {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#field { 
+	width: 800px;
+	height: 500px;
+	padding: 2em;
+}
+
+#theimage {
+	display: none;
+}

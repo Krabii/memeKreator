@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meme</title>
+	<style type="text/css">
+	
+	fieldset {border:2px solid black;}
+
+	#myCanvas {border:1px solid #d3d3d3;}
+
+	#control_panel {
+		width:300px; 
+		display: inline-block;
+		vertical-align: top;
+		padding: 2em;
+		line-height: 30px;
+	}
+
+	#theimage {
+		display: none;
+	}
+
+	input,label {
+		border-radius: 4px;
+		width:90%;
+		padding: 14px 14px;
+	}
+
+	</style>
+</head>
+<body>
+<div id="control_panel">
+
+	<img id="theimage" src="https://imgflip.com/s/meme/Leonardo-Dicaprio-Cheers.jpg">
+	<fieldset>
+	<label>Up</label>
+	<input id="up" type="text" name="arriba" placeholder="Introduze texto" value="arriba">
+	<label>Down</label>
+	<input id="down" type="text" name="abajo" placeholder="Introduze texto" value="abajo">
+	<label>URL to Image</label>
+	<input id="theURL" type="text" name="URL" placeholder="Url to image" value="http://www.memecreator.org/static/images/templates/146605.jpg">	
+	<label>Or choose a local one</label>
+	<input type="file" name="dialog">
+
+	<button id="mainbutton">Click</button>
+	</fieldset>
+</div>
+	<canvas id="myCanvas" width="500" height="450">Your browser does not support the canvas element.</canvas>
+
+<script src="meme_creator.js">
+	
+</script>
+
+</body>
+</html>
