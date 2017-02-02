@@ -1,8 +1,7 @@
 # memeKreator
 A simple Javascript meme creator.
 Komments are Velcome!
-and yes
 
-ok yes
+It works with external picture files and also online links.
 
-Last comment
+For the moment to output the meme do it by right clicking on the image. Like real people do!!
